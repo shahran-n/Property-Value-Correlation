@@ -1,8 +1,55 @@
-# Property Value Correlation
+# 📊 Noise vs Residential Units Analysis
 
-A correlation analysis aimed to investigate the relationship between property values in Manhattan and the frequency of 311 calls, which serves as a public feedback mechanism for city services and issues.
+## Overview
+**Noise vs Residential Units Analysis** is a data-driven project that explores the correlation between noise complaints and the number of residential units in different areas. Using Python and data visualization tools, this project analyzes relationships within a dataset to provide insights into urban noise patterns.
 
-![]([https://user-images.githubusercontent.com/63386979/170894496-ca0ad829-cd22-40da-864a-ec8a39e0080a.jpeg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbetterttv.com%2Femotes%2F65669c9fa517b784eb548375&psig=AOvVaw1XJQXju--Kcbp-VIwXXqPm&ust=1729192870592000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNiowcjPk4kDFQAAAAAdAAAAABAI)](https://tenor.com/vwtGUbHADp2.gif))
+## 🚀 Features
 
+### 📂 Data Handling
+- Loads an Excel file containing noise complaint counts and residential unit totals.
+- Cleans data by removing infinite values and NaNs.
 
+### 📈 Statistical Analysis
+- Computes the **Pearson correlation coefficient** to measure the strength of the relationship between noise and residential density.
+- Displays the **p-value** to assess statistical significance.
 
+### 📊 Visualization
+- **Scatter Plot with Regression Line**: Shows the relationship between noise count and residential units.
+- **Correlation Heatmap**: Provides an overview of correlations within the dataset.
+
+## 🔧 Setup & Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/shahran-n/Property-Value-Correlation.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd Property-Value-Correlation
+   ```
+3. Install dependencies:
+   ```sh
+   pip install pandas seaborn matplotlib scipy openpyxl
+   ```
+4. Run the analysis script:
+   ```sh
+   python main.py
+   ```
+
+## 🏗️ How It Works
+1. **Load Data**: The script loads an Excel dataset (`sales_andnoise_byCT.xlsx`) with noise counts and residential unit data.
+2. **Data Cleaning**: Handles missing or infinite values to ensure accurate analysis.
+3. **Correlation Calculation**: Computes the Pearson correlation coefficient and p-value.
+4. **Visualization**:
+   - Generates a scatter plot with a regression line to illustrate trends.
+   - Creates a correlation heatmap to show relationships between variables.
+
+## 📌 Use Cases
+- **Urban Planning**: Helps city planners understand how residential density affects noise complaints.
+- **Environmental Studies**: Provides data for noise pollution analysis.
+- **Real Estate**: Insights into noise levels for property assessments.
+
+## 📌 Technologies Used
+- **Python**
+- **Pandas**
+- **Seaborn & Matplotlib**
+- **SciPy**
