@@ -1,20 +1,20 @@
-# 📊 Noise vs Residential Units Analysis
+# 📊 Noise Complaints vs Property Sales Correlation Analysis
 
 ## Overview
-**Noise vs Residential Units Analysis** is a data-driven project that explores the correlation between noise complaints and the number of residential units in different areas. Using Python and data visualization tools, this project analyzes relationships within a dataset to provide insights into urban noise patterns.
+**Noise Complaints vs Property Sales Correlation Analysis** is a data-driven project that explores the correlation between noise complaints and the number of residential units sold in different areas. Using Python and data visualization tools, this project analyzes relationships within a dataset to provide insights into urban patterns.
 
 ## 🚀 Features
 
 ### 📂 Data Handling
-- Loads an Excel file containing noise complaint counts and residential unit totals.
+- Loads an Excel file containing noise complaint counts and residential unit sales totals.
 - Cleans data by removing infinite values and NaNs.
 
 ### 📈 Statistical Analysis
-- Computes the **Pearson correlation coefficient** to measure the strength of the relationship between noise and residential density.
+- Computes the **Pearson correlation coefficient** to measure the strength of the relationship between noise and residential sale density.
 - Displays the **p-value** to assess statistical significance.
 
 ### 📊 Visualization
-- **Scatter Plot with Regression Line**: Shows the relationship between noise count and residential units.
+- **Scatter Plot with Regression Line**: Shows the relationship between noise count and residential sales.
 - **Correlation Heatmap**: Provides an overview of correlations within the dataset.
 
 ## 🔧 Setup & Installation
@@ -36,7 +36,7 @@
    ```
 
 ## 🏗️ How It Works
-1. **Load Data**: The script loads an Excel dataset (`sales_andnoise_byCT.xlsx`) with noise counts and residential unit data.
+1. **Load Data**: The script loads an Excel dataset (`sales_andnoise_byCT.xlsx`) with noise counts and residential unit sale data.
 2. **Data Cleaning**: Handles missing or infinite values to ensure accurate analysis.
 3. **Correlation Calculation**: Computes the Pearson correlation coefficient and p-value.
 4. **Visualization**:
